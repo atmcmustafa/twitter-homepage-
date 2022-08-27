@@ -1,0 +1,219 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+        font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+body {
+    background: #000;
+}
+
+.container {
+    display: flex;
+    /* height: 100vh; */
+    /* background-color: #444; */
+}
+
+.left {
+    /* width: 45%; */
+
+}
+
+.right {
+    width: 785px;
+    height: 760px;
+    background-color: #000;
+}
+
+.logo{
+    width: 557px;
+    height: 817px;
+    background-image: url(lohp_1302x955.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.svg {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     color: #fff;
+}
+
+.svg img {
+    height: 292px;
+    width: 359px;
+}
+
+.small-logo  img{
+    width: 50px;
+    height: 50px;
+}
+
+.content {
+    padding: 30px;
+    color: #fff;
+}
+
+.btn-light {
+    width: 300px;
+    box-shadow: none;
+    border-color: #d2e3fc;
+    outline: none;
+    border-radius: 20px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #dadce0;
+    color: #3c4043;
+    cursor: pointer;
+    font-family: "Google Sans",arial,sans-serif;
+    font-size: 14px;
+    height: 40px;
+    letter-spacing: 0.25px;
+    outline: none;
+    overflow: hidden;
+    padding: 0 12px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.btn-blue {
+    width: 300px;
+    box-shadow: none;
+    border-color: #d2e3fc;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgb(26, 140, 216);
+    background-image: none;
+    border: 0 solid black;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Google Sans",arial,sans-serif;
+    font-size: 14px;
+    height: 40px;
+    letter-spacing: 0.25px;
+    outline: none;
+    overflow: hidden;
+    padding: 0 12px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+.btn-dark {
+    width: 300px;
+    box-shadow: none;
+    border-color: #d2e3fc;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(29, 155, 240, 0.1);
+    background-image: none;
+    color: rgb(29, 155, 240);
+    cursor: pointer;
+    font-family: "Google Sans",arial,sans-serif;
+    font-size: 15px;
+    height: 40px;
+    letter-spacing: 0.25px;
+    outline: none;
+    overflow: hidden;
+    padding: 0 12px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid rgb(83, 100, 113);
+}
+
+
+.mt-3 {
+    margin-top: 15px;
+}
+
+.me-1 {
+    margin-right: 5px;
+}
+
+.warning {
+    padding: 0 5px;
+    margin-top: 9px;
+    font-size: 11px;
+    width: 300px;
+    color: rgb(113, 118, 123);
+        line-height: 12px;
+}
+
+.warning a {
+    text-decoration: none;
+    color: rgb(29, 155, 240);
+}
+
+.warning a:hover {
+    text-decoration: underline;
+}
+
+
+.footer {
+    margin-top: 12px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 12px;
+    
+}
+
+
+
+.footer ul li {
+    display: inline;
+    margin-right: 10px;
+
+
+}
+
+.footer ul li a {
+    text-decoration:none;
+color: rgb(113, 118, 123);
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+@media screen and (min-width: 1400px) {
+.logo{
+    width: 1000px;
+    height: 955px;
+    background-image: url(lohp_1302x955.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
